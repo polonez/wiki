@@ -1,0 +1,12 @@
+palindrome:
+    - {fileName: palindrome}
+algorithm:
+    - {fileName: palindrome}
+partial:
+    - {fileName: partial_evaluation}
+evaluation:
+    - {fileName: partial_evaluation}
+futamura:
+    - {fileName: partial_evaluation}
+pypy:
+    - {fileName: partial_evaluation}

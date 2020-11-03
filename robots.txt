@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://polonez.github.io/wiki/sitemap.xml

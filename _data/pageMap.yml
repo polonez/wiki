@@ -1,0 +1,24 @@
+index:
+    type: wiki
+    title: wiki
+    summary: null
+    parent: null
+    url: /wiki/index
+    updated: null
+    children: []
+palindrome:
+    type: wiki
+    title: Palindrome
+    summary: 'Find the longest palindrome'
+    parent: algorithm
+    url: /wiki/palindrome
+    updated: '2020-11-01 23:10:24 +0900'
+    children: []
+partial_evaluation:
+    type: wiki
+    title: 'partial evaluaion'
+    summary: null
+    parent: computation
+    url: /wiki/partial_evaluation
+    updated: '2020-11-01 21:20:29 +0900'
+    children: []

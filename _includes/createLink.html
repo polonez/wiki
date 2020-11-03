@@ -1,0 +1,33 @@
+<script>
+  function walk(node, func) {
+    if (node.hasChildNodes()) {
+      func(node);
+      node = node.firstElementChild;
+      while (node) {
+        walk(node, func);
+        node = node.nextElementSibling;
+      }
+    }
+  }
+  (function() {
+    var content = document.querySelector('article.post-content');
+    var cs = Array();
+    walk(content, function (node) {
+      if (node.tagName.toLowerCase() === "code" && typeof node.innerHTML !== "undefined") {
+        cs.push(node.innerHTML);
+        p = node.parentElement;
+        p.removeChild(node);
+        codeElement = document.createElement("code");
+        p.appendChild(codeElement);
+      }
+    });
+    content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]\{(.+?)\}/g, '<a href="../$1">$2</a>');
+    content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]/g, '<a href="../$1">$1</a>');
+
+    var codes = document.querySelectorAll('code');
+    for (var i=0; i<codes.length; i++) {
+      codes[i].innerHTML = cs[i];
+    }
+  })();
+
+</script>
