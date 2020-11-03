@@ -3,7 +3,7 @@ layout  : wiki
 title   : partial evaluaion
 summary :
 date    : 2020-11-01 21:19:16 +0900
-updated : 2020-11-01 21:20:29 +0900
+updated : 2020-11-03 18:34:21 +0900
 tags    : partial evaluation futamura pypy
 toc     : true
 public  : true
@@ -55,10 +55,12 @@ PE\*(PE, interpreter) = compiler, compiler(source) = target
 PE\*\*(PE\*, PE) = compiler-generator, compiler-generator(interpreter) = compiler
 ```
 
-- https://en.wikipedia.org/wiki/Partial_evaluation
-- https://kldp.org/node/105142
-- https://gist.github.com/tomykaira/3159910
-- http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html
+### References
+
+- [https://en.wikipedia.org/wiki/Partial_evaluation](https://en.wikipedia.org/wiki/Partial_evaluation)
+- [https://kldp.org/node/105142](https://kldp.org/node/105142)
+- [https://gist.github.com/tomykaira/3159910](https://gist.github.com/tomykaira/3159910)
+- [http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html](http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html)
 - PyPy project
 - Futamura projection
 
