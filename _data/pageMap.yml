@@ -12,7 +12,7 @@ palindrome:
     summary: 'Find the longest palindrome'
     parent: algorithm
     url: /wiki/palindrome
-    updated: '2020-11-01 23:10:24 +0900'
+    updated: '2020-11-03 15:22:57 +0900'
     children: []
 partial_evaluation:
     type: wiki
@@ -21,4 +21,12 @@ partial_evaluation:
     parent: computation
     url: /wiki/partial_evaluation
     updated: '2020-11-01 21:20:29 +0900'
+    children: []
+reverse_singly_linked_list:
+    type: wiki
+    title: 'Reverse singly linked list'
+    summary: null
+    parent: algorithm
+    url: /wiki/reverse_singly_linked_list
+    updated: '2020-11-03 18:08:56 +0900'
     children: []

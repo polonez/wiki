@@ -11,5 +11,6 @@ regenerate: true
 
 * algorithm
   * [[palindrome]]
+  * [[reverse_singly_linked_list]]
 * computation
   * [[partial_evaluation]]

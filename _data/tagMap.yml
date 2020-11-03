@@ -2,6 +2,7 @@ palindrome:
     - {fileName: palindrome}
 algorithm:
     - {fileName: palindrome}
+    - {fileName: reverse_singly_linked_list}
 partial:
     - {fileName: partial_evaluation}
 evaluation:
@@ -10,3 +11,11 @@ futamura:
     - {fileName: partial_evaluation}
 pypy:
     - {fileName: partial_evaluation}
+reverse:
+    - {fileName: reverse_singly_linked_list}
+single:
+    - {fileName: reverse_singly_linked_list}
+linked:
+    - {fileName: reverse_singly_linked_list}
+list:
+    - {fileName: reverse_singly_linked_list}
