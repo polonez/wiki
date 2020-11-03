@@ -3,18 +3,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>{{ site.url }}/wiki/tags/</loc>
+        <loc>{{ site.url }}/tags/</loc>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>{{ site.url }}/wiki/index/</loc>
+        <loc>{{ site.url }}/index/</loc>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
 {% for post in site.wiki %}
     <url>
-        <loc>{{ site.url }}/wiki{{ post.url }}</loc>
+        <loc>{{ site.url }}{{ post.url }}</loc>
     {% if post.updated == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
     {% else %}
@@ -37,7 +37,7 @@
 {% for doc in documents %}
     {% if doc.public == true and doc.title != 'wiki index'%}
     <url>
-        <loc>{{ site.url }}/wiki{{ doc.url }}</loc>
+        <loc>{{ site.url }}{{ doc.url }}</loc>
         {% if doc.updated == null %}
             <lastmod>{{ doc.date | date_to_xmlschema }}</lastmod>
         {% else %}

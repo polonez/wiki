@@ -16,7 +16,7 @@
             if (!next || !next['parent'] || next['parent'].length < 1) {
                 break;
             }
-            next['url'] = '/wiki/'.concat(target)
+            next['url'] = '/'.concat(target)
             plist.unshift(next);
             target = encodeURI(next['parent']);
         }
