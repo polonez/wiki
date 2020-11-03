@@ -14,9 +14,10 @@
     {% if site.comment-support == "utterances" %}
         <script src="https://utteranc.es/client.js"
             repo="{{ site.utterances.repo }}"
-            issue-term="{{ site.utterances.issue-term }}"
-            label="{{ site.utterances.label }}"
-            branch="{{ site.utterances.branch }}"
+            issue-term="pathname"
+            theme="photon-dark"
+            label="comment"
+            crossorigin="anonymous"
         async>
         </script>
     {% endif %}

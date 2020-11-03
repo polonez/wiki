@@ -49,12 +49,8 @@ paginate: 10
 # google adsense
 # google analytics
 
-# utterances:
-#   repo:
-#     issue-term: pathname
-#     label: Comment
-#     branch: main
-
+utterances:
+  repo: polonez/wiki
 
 blame: "https://github.com/polonez/wiki/blame/main/_wiki"
 edit: "https://github.com/polonez/wiki/edit/main/_wiki"
