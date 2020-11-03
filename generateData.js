@@ -209,7 +209,8 @@ function parseInfo(file, info) {
     obj.url = '/blog/' + obj.date.replace(/^(\d{4})-(\d{2})-(\d{2}).*$/, '$1/$2/$3/');
     obj.url += obj.fileName.replace(/^(\d{4}-\d{2}-\d{2}-)?(.*)$/, '$2');
   } else if (file.type === 'wiki') {
-    obj.url = '/wiki/' + obj.fileName;
+    //obj.url = '/wiki/' + obj.fileName;
+    obj.url = '/' + obj.fileName;
   }
 
   if (obj.tags) {

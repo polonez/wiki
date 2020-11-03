@@ -3,7 +3,7 @@ index:
     title: wiki
     summary: null
     parent: null
-    url: /wiki/index
+    url: /index
     updated: null
     children: []
 palindrome:
@@ -11,7 +11,7 @@ palindrome:
     title: Palindrome
     summary: 'Find the longest palindrome'
     parent: algorithm
-    url: /wiki/palindrome
+    url: /palindrome
     updated: '2020-11-03 15:22:57 +0900'
     children: []
 partial_evaluation:
@@ -19,7 +19,7 @@ partial_evaluation:
     title: 'partial evaluaion'
     summary: null
     parent: computation
-    url: /wiki/partial_evaluation
+    url: /partial_evaluation
     updated: '2020-11-03 18:34:21 +0900'
     children: []
 reverse_singly_linked_list:
@@ -27,6 +27,6 @@ reverse_singly_linked_list:
     title: 'Reverse singly linked list'
     summary: null
     parent: algorithm
-    url: /wiki/reverse_singly_linked_list
+    url: /reverse_singly_linked_list
     updated: '2020-11-03 18:08:56 +0900'
     children: []
